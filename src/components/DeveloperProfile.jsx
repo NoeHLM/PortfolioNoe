@@ -3,13 +3,12 @@ import "../css/DeveloperProfile.css";
 
 const DeveloperProfile = () => {
   const developerInfo = {
-    name: "Nom du Développeur",
+    name: "Noé",
+    last_name: "HEY-LE MADEC",
     title: "Développeur Full Stack",
     bio: "Description courte du développeur et de ses compétences.",
-    skills: ["JavaScript", "React", "Node.js", "HTML", "CSS"],
-    github: "https://github.com/nom-utilisateur",
-    linkedin: "https://www.linkedin.com/in/nom-utilisateur/",
-    // Ajoutez d'autres informations si nécessaire
+    github: "https://github.com/NoeHLM",
+    linkedin: "https://www.linkedin.com/in/noe-hey-le-madec-developpeur-informatique-alternance/",
   };
 
   return (
