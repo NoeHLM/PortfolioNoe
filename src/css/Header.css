@@ -1,0 +1,48 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrez les éléments horizontalement */
+  }
+  
+  .developer-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alignez le contenu à gauche */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto; /* Déplacez le logo tout à gauche */
+  }
+  
+  .navbar {
+    display: flex; /* Ajoutez cette ligne pour activer le modèle de disposition flexbox */
+    align-items: center;
+  }
+  
+  .navbar a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .reseau {
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .bio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .prenom,
+  .nom,
+  .titre {
+    margin-bottom: 10px;
+  }
+  
